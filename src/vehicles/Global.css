@@ -1,0 +1,127 @@
+.bothSides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.leftSide{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    width: 60%;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.circleList{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: 150px;
+}
+
+.circleLink{
+    background-color: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.565);
+    font-size: 30px;
+    font-weight: 500;
+    padding: 35px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.4s;
+}
+.circleLink:hover{
+    background: #cccf;
+    color: #000;
+  }
+
+.firstlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.preTitle{
+    text-transform: uppercase;
+    color: #fff;
+}
+.title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+}
+
+.textVehicle{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.rightSideVehicles{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.imagem{
+    width: 100%;
+}
+.image{
+    width: 700px;
+    height: 600px;
+}
+
+
+@media(max-width:1500px){
+    .rightSideVehicles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .coluna{
+        width: 800px;
+    }
+}
+@media(max-width:1100px){
+    .bothSides{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .circleList{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .circles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+    .rightSideVehicles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 100%;
+        margin-left: 15px;
+    }
+}

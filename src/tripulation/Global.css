@@ -1,0 +1,95 @@
+.bothSidesTrip{
+  display: flex;
+    justify-content: space-between;
+  position: relative;
+  position: top 500px;
+}
+.chooseCrew{
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .chooseCrew span{
+    font: bold;
+    color: #999f;
+  }
+
+  .jobCrew{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .job{
+    font-weight: 100;
+    color: #999f;
+    font-size: 45px;
+  }
+
+  .nameCrew{
+    font-weight: 400;
+    color: #fff;
+    font-size: 70px;
+  }
+
+  .textCrew{
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.743);
+    font-size: 23px;
+  }
+
+  .rightSide{
+    background: transparent;
+  }
+
+  .image{
+    background: transparent;
+  }
+
+  .links{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    list-style: none;
+  }
+  
+.circleLinkCrew{
+  padding: 6px 9px;
+  border-radius: 50%;
+  border: solid 1px white;
+  transition: all 0.4s;
+}
+
+.circleLinkCrew.active{
+  padding-bottom: 5px;
+}
+.circleLinkCrew:hover{
+  background: #cccf;
+}
+
+@media(max-width:1000px){
+  .bothSides,.leftSide,.rightSide,.jobCrew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .textCrew{
+    width: 400px;
+  }
+  
+  .imagem{
+    width: 410px;
+  }
+  .image{
+    width: 100%;
+  }
+}

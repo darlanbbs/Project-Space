@@ -1,0 +1,100 @@
+* {
+    padding:0;
+    margin:0;
+  }
+  body {
+    display: table;
+    background: url(../../src/images/home/background-home-desktop.jpg) no-repeat bottom center scroll;
+    background-position: 30% 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    color: white;
+    
+  }
+
+  .bothSides{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+    width: 100%;
+  }
+
+  .leftSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+  }
+
+  .coluna{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+  }
+
+  .titleText{
+    color: #Fff;
+    font-weight: 100;
+    font-size: 30px;
+  }
+
+  .spaceU{
+    font-weight: 300;
+    font-size: 170px;
+    color: #FFF;
+  }
+
+  .spaceText{
+    font-weight: 500;
+    font-size: 21px;
+    color: white;
+    width: 440px;
+  }
+  .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    background-color: #FFF;
+    transition: all 0.6s;
+    cursor: pointer;
+  }
+  .circle:hover{
+    background: #cccf;
+    color: white;
+  }
+  .circleText{
+    font-size: 30px;
+    font-weight: bold ;
+    color: #000;
+  }
+
+  @media(max-width:1000px){
+    .bothSides{
+      position: relative;
+        flex-direction: column;
+      top: 100px;
+    }
+    .coluna{
+      width: 400px;
+    }
+    .leftSide{
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .spaceU{
+      font-size: 100px;
+    }
+    .circle{
+      margin-top: 50px;
+    }
+  }
