@@ -21,11 +21,3 @@ The challenge project tourism space is a challange by (frontendmentor.io/challen
 
 -Last, but not least, type npm start to run the app locally.
 
-# Depedencies 
-
-- React layout 
-  - Install: `npm install reactstrap react react-dom`
-  - Install: `npm install --save bootstrap`
-
-- React Router
-  - Install `react-router-dom`
